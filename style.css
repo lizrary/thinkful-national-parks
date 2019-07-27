@@ -1,0 +1,29 @@
+body * {
+    display: flex;
+}
+
+legend, form {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    border-style: solid;
+    margin: 0.5em;
+    align-content: center;
+}
+
+#results {
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+ol, li {
+    flex-wrap: wrap;
+    padding: 1em;    
+}
+
+li {
+    list-style-type: decimal;
+}
